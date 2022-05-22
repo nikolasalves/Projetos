@@ -12,7 +12,7 @@ resource "aws_vpc" "vpc_01" {
 resource "aws_security_group" "sg_01" {
   name        = "sg_01"
   description = "Networking rules"
-  vpc_id      = aws_vpc.vpc_01.id
+  vpc_id      = "aws_vpc.vpc_01.id"
 
   ingress {
     description      = "HTTPS"
