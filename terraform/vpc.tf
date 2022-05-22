@@ -47,6 +47,6 @@ resource "aws_security_group" "sg_01" {
   }
 
   tags = {
-    Name = "lab"
+    Name = "lab1"
   }
 }
